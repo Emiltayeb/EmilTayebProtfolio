@@ -1,0 +1,203 @@
+/* תמונת רקע */
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1497465135434-9dc15238075a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1924&q=80);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 20px 0;
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+}
+
+
+/* כך וידאנו שכל הטקסט בתוך הרשימה יהיה באמצע */
+
+.key_feature_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+/* נתתי רוחב 30 אחוז כי יש רק שלוש.
+בצורה כזו הם יראו כך */
+
+.key-feature {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+
+/* עיצוב התמונות עצמם */
+
+.key-feature__img img {
+	display: inline-block;
+	width: 80%;
+}
+
+
+/* עיצוב הטקסט שמתאר כל תמוהנ */
+
+.key-feature_discription {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+#key-features a {
+	text-decoration: none;
+}
+
+
+/* עיצוב הקרדיטים. */
+
+.credits {
+	margin: 5px;
+	font-size: 8px;
+}
+
+
+/* עיצוב הפורום עצמו ליצירת קשר */
+
+input[type=email],
+select,
+textarea {
+	width: 50%;
+	/*רוחב חצי מהמסך*/
+	padding: 12px;
+	border: 1px solid rgb(54, 87, 199);
+	border-radius: 4px;
+	box-sizing: border-box;
+	/*כמו שאמרנו מקודם , נתנו בורדר בוקס*/
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	text-align: center;
+}
+
+#subject {
+	text-align: right;
+}
+
+
+/* עיצוב הפכתור */
+
+input[type=Submit] {
+	background-color: #61BBF0;
+	color: white;
+	font-weight: bold;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* עיצוב ריחוף מעל הכפתור , ונתתי אנמציה לחילוף עצמו */
+
+input[type=Submit]:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 40px 15px rgba(0, 0, 0, 0.2);
+	transition: all 0.5s;
+}
+
+input[type=Submit]:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* עיצוב הקונטיינר עצמו שהפורום נמצא בתוכו*/
+
+.container {
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+}
+
+.youtube-animated {
+	animation: youtubeMove 1s ease-in-out;
+}
+
+.linkdin-animated {
+	animation: linkdinMove 1s 0.55s ease-in-out;
+	animation-fill-mode: backwards;
+}
+
+.facebook-animated {
+	animation: facebookMove 1s 1s ease-in-out;
+	animation-fill-mode: backwards;
+}
+
+@keyframes youtubeMove {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px)
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0)
+	}
+}
+
+@keyframes linkdinMove {
+	0% {
+		opacity: 0;
+		transform: translateY(-200px)
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0)
+	}
+}
+
+@keyframes facebookMove {
+	0% {
+		opacity: 0;
+		transform: translateY(-300px)
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0)
+	}
+}
+
+
+/* רק במסכים קטנים הפורום יתפוס את כל הרוחב */
+
+@media (max-width:768px) {
+	input[type=text/email],
+	select,
+	textarea {
+		width: 100%;
+		/*רוחב מלא*/
+		padding: 12px;
+		border: 1px solid rgb(54, 87, 199);
+		border-radius: 4px;
+		box-sizing: border-box;
+		/*כמו שאמרנו מקודם , נתנו בורדר בוקס*/
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+}

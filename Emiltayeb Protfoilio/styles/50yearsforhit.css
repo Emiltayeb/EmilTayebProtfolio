@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+
+/* תמונ רקע שונה למסך הזה בהתאם לאווירה */
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-repeat: no-repeat;
+}
+
+
+/* https://images.unsplash.com/photo-1472190649224-495422e1b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=8 */
+
+
+/* עיצוב הפינות שמסביב שיהיו  מעוגלים */
+
+.rounded {
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+/* עיצוב הכותרת הראשית  */
+
+h1 {
+	text-align: center;
+	margin: 10px 0;
+	text-decoration: underline;
+	font-size: 2.5rem;
+	color: white;
+	;
+	letter-spacing: 0.5rem;
+	animation: fadein 1s ease-in;
+}
+
+
+/* נתתי רוחב לכל התוכן שתמיד יתפוס 100 אחוז מהדף */
+
+.item_description {
+	width: 100%;
+}
+
+
+/* העיצוב הראשי של הפוסטר */
+
+.hitposter {
+	background-image: url(../images/פוסטר\ 50\ שנה\ ל\ HIT.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	padding-bottom: 75%;
+	height: 0;
+	width: 65%;
+	margin: 10px auto;
+	transition: all 0.7s;
+	display: block;
+	animation: fadein 1s 0.25s ease-in;
+	animation-fill-mode: backwards;
+}
+
+
+/* שמרחפים עליו עם העכבר . הוא יגדל טיפה */
+
+.hitposter:hover {
+	width: 80%;
+	height: 80%;
+	padding-bottom: 80%;
+	background-size: contain;
+}
+
+
+/* עיצוב כל התוכן בתןך התיאור */
+
+.desc {
+	text-align: center;
+	padding: 20px;
+	margin: 10px auto 0 auto;
+	background-color: #529FCC;
+	line-height: 170%;
+	font-size: 20px;
+	color: white;
+}
+
+
+/* עיצוב כותרת משנית */
+
+h2 {
+	text-decoration: underline;
+	color: white;
+}
+
+
+/* נתתי ID 
+לשמות הקורסים , ועיצבתי אותם טיפה שונה מהשאר */
+
+#Courses {
+	font-weight: bold;
+	font-size: 140%;
+	letter-spacing: 0.2rem;
+	color: black;
+}
+
+
+/* עיצוב הלינק למכון הטכנולוגי */
+
+.item_description a {
+	color: white;
+	font-size: 150%;
+	transition: all 0.4s;
+}
+
+.item_description a:hover {
+	font-weight: bold;
+	font-size: 180%;
+}
+
+#hitAudio {
+	margin: 0 auto;
+	width: 40%;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* .שוב דאגה שמסכים שונים הרזולציה תישמר */
+
+@media (max-width:600px) {
+	.desc,
+	.image {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media (max-width: 800px) {
+	#container p {
+		font-size: 16px;
+	}
+	.content {
+		padding: 0 6px;
+		margin: 0;
+	}
+}
+
+@media (max-width: 400px) {
+	h1 {
+		font-size: 100%;
+	}
+}

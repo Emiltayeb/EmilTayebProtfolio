@@ -1,0 +1,147 @@
+/* עיצוב התמונה בלוגו הבית */
+
+body {}
+
+.image {
+	height: auto;
+	width: 100%;
+	animation: rotate 1s 0.25s ease-in;
+	animation-fill-mode: backwards;
+	box-shadow: 0 40px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* עיצוב הכתב שבתוך "לאן הגעתי" שיהיה מרווח  */
+
+.post,
+.post p {
+	margin-top: 20px;
+}
+
+
+/* מירכוז הטקסט וקביעת הגודל */
+
+.post p {
+	font-size: 140%;
+	text-align: center;
+}
+
+
+/* עיצוב הכותרת */
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+	;
+	text-decoration: underline;
+}
+
+
+/* עיצוב לינק של המכון הטכנולגי */
+
+.quote a {
+	text-decoration: underline;
+	color: white;
+	text-decoration: none;
+}
+
+.quote a:hover {
+	font-size: 150%;
+	transition: all 0.5s;
+	text-decoration: underline;
+}
+
+
+/* עיצוב החלק התחתון מבחינת מסגרת רקע  ונתתי ערכים כך שיהיה מסגרת עגולה */
+
+#key-features {
+	-webkit-border-radius: 40px 40px 0 0;
+	border-radius: 40px 40px 0 0;
+	background-color: #529FCC;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+
+/* עיצוב הכותרת בבחלק התחתון של העמוד. */
+
+#key-features .section-title {
+	font-size: 2rem;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+	margin: 32px;
+}
+
+
+/* עיצוב הרשימות. הסרתי את הבולטים  ומירכזתי אותם */
+
+.key_feature_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+/* באמצעות 
+  inline block
+  אנחנו מוודאים שהם יהיו אחד ליד השני ותמיד יפתסו כל אחד 30 אחוז מהמסך */
+
+.key-feature {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+section,
+#key-features {
+	animation: textFadeIn 1s 0.25s ease-in;
+	animation-fill-mode: backwards;
+}
+
+
+/* מעצבים את הטקסט מתחת לאייקונים. */
+
+.key-feature_discription {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+#key-features a {
+	text-decoration: none;
+}
+
+@keyframes rotate {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes textFadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(900px)
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0)
+	}
+}
+
+
+/* האייקונים עצמם מקבלים סטייל שונה */
+
+.circleimage {
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 560px) {}

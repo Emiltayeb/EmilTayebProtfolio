@@ -1,0 +1,110 @@
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	color: white;
+	font-weight: 100;
+	text-decoration: underline;
+	animation: textfadein 1.5s 0.5s ease-out;
+	animation-fill-mode: backwards;
+}
+
+
+/* עיצוב התמונה ומירכוז שלה באמצע התוכן. */
+
+.img {
+	display: block;
+	background-image: url(../images/the\ bookmanm.png);
+	height: 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	padding-bottom: 80%;
+	animation: textfadein 1.5s 0.5s ease-out;
+	animation-fill-mode: backwards;
+	width: 59%;
+	margin: 10px auto;
+	transition: all 0.7s;
+}
+
+
+/* שמרחפים מעל התמונה תיהיה אנמציה  והיא תתחלף לתמונה שאנחי עשיתי */
+
+.img:hover {
+	background-image: url(../images/galit\,in.jpg);
+	width: 80%;
+	height: 90%;
+	padding-bottom: 80%;
+}
+
+
+/* עיצוב הטקסט בתוך התוכן ודאגה שישאר במרכז
+בגלל שזה הטקסט היחיד בתוכו התייחסתי אליו רק בתור P */
+
+p {
+	font-size: 18px;
+	line-height: 35px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+/* טקסט שהחלטתי להדגיש */
+
+.emphesies {
+	font-weight: bold;
+	color: white;
+	font-size: 120%;
+}
+
+
+/* עיצוב הטקסט שמעל הסרטון */
+
+.media p {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/* כאן נתתי עיצוב לסרטון עצמו שבכל מסך יראהה בהתאם אליו */
+
+.iframe-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.iframe-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes textfadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* שוב דאגה שבמסכים אחרים התוכן הזה ספציפית יראה בהתאם */
+
+@media (max-width: 320px) {
+	.content {
+		padding: 5px;
+	}
+	.content span {
+		font-size: 17px;
+	}
+}
