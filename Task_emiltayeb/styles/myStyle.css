@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    direction:rtl;
+
+    background-image: url(https://images.unsplash.com/photo-1448842215777-02928daa9d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1864&q=80);
+  
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+  
+
+ 
+
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 960px;
+
+ 
+}
+
+
+
+#hitlogo img {
+ 
+height: 105px; 
+text-align: center;
+border-radius: 10px;
+
+
+}
+
+header{
+    background-image: linear-gradient(to right bottom,rgb(66, 136, 189), rgb(40, 180, 133));
+}
+h1  {
+   
+    font-size: 60px;
+    color: #fdffff;
+    padding: 16px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin:10px 0;
+    margin-bottom: 40px;
+  
+}
+
+#discription {
+    text-align: center;
+    font-size: 23px;
+    
+}
+#discription span {
+    font-weight: bolder;
+    color: #008287;
+    
+    border-radius: 100px;
+    
+}
+ul {
+    margin: 30px auto;
+    
+    width: 220px;
+    
+}
+li{
+    
+text-align: center;
+font-size: 20px;
+color: white;
+
+}
+.mainImage {
+    
+   
+    border-radius: 20px;
+    width: 550px;
+    display: block;
+    float: right;
+
+}
+
+.clear {
+    clear: both;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+   
+
+     
+}
+
+.background {
+   
+
+    display: inline-block;
+    
+   margin: 50px 10px 0 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+form {
+
+    background-image: linear-gradient(to right bottom, rgb(91, 157, 243) , #008287ad);
+     border-radius: 20px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+
+#sendForm {
+  margin-top: 20px;
+}
+
+.foromTitletext
+ {
+     color: white;
+ font-weight: bolder;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#youremail , #yourname, #phone{
+    margin: 5px;
+}
+
+#sendForm{
+    border: none;
+    background-color: #008287;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px 80px;
+    transition:  all 0.8s;
+}
+
+
+#sendForm:hover{
+color:#008287;
+background-color: white;
+transform: translateY(-10px)
+
+}
+
+
+
+
+@media (max-width:951px) {
+    label {
+
+           
+            display: block;
+    }
+
+    #hitlogo{
+      display: none;
+    }
+    .mainImage{
+        width: 100%;
+    }
+  
+}
+@media (max-width:528px) {
+
+  
+}
