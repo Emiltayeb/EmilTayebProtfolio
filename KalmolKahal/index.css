@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    direction: rtl;
+}
+
+.fa-searchengin{
+    margin-left: 10px;
+}
+
+.navbar-dark .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+   margin-right: 40px}
+
+.navbar-dark .nav-link {
+   font-size:20px;
+   
+}   
+
+.jumbotron{
+  
+    background-image:  url(Asset\ 2.png);
+    margin-bottom: 0;
+   background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    -webkit-box-shadow: 0 0 45px 2px #000000;
+        box-shadow: 0 0 45px 2px #000000;
+    
+}
+
+#headerText{
+  text-align: right;
+}
+
+.jumbotron a{
+
+    transform: translateX(-50%);
+ text-align: center;
+}
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+   
+}
+
+h3{
+    font-size: 29px;
+}
+
+#introContent {
+    padding: 16px;
+    font-size: 25px;
+    background-image: linear-gradient(to right , rgb(83, 236, 211),rgb(55, 164, 228));
+ border-radius: 150px;
+ animation: moveUpandDown 1s  infinite alternate ;
+}
+
+#cards  {
+text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    background-position: center;
+    }
+.btn{
+    transition: all 0.8s;
+}
+.cardbtnScale:hover {
+      background-color: white;
+      color: blue;
+      transform: scale(1.5)
+    
+  }
+
+  .card-title{
+   text-decoration: underline;
+
+  }
+
+  @media (max-width:425px){
+    #headerText h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #headerText h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+  }
+
+  @keyframes moveUpandDown {
+     0% {
+          transform:translateY(0)
+      }
+      100% {
+        transform:translateY(-20px)
+      }
+  }
