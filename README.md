@@ -15,3 +15,7 @@ https://emiltayeb.github.io/WebDevelopmentCourse/Todo%20list%20project/index.htm
 # Musume Of Candy Project
 
 https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
+
+# Color Game Prject
+
+https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGame.html
