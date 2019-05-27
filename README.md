@@ -11,3 +11,7 @@ https://emiltayeb.github.io/WebDevelopmentCourse/Task5_emiltayeb/index.html
 # Todo List app 
 
 https://emiltayeb.github.io/WebDevelopmentCourse/Todo%20list%20project/index.html
+
+# Musume Of Candy Project
+
+https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
