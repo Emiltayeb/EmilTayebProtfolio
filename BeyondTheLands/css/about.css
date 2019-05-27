@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: david;
+ 
+  direction: rtl;
+}
+#container{
+  width: 960px;
+  margin: 0 auto;
+}
+#main{
+  padding-bottom: 80px;
+}
+#nav-logo {
+  height: 200px;
+
+
+  position: absolute;
+  left: 50px;
+  top: -20px;
+ 
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin-left: 100px;
+  overflow-x: hidden;
+  transition: all 1.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  text-align: right;
+  padding: 8px 8px 8px 32px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  display: block;
+  transition: 0.6s;
+}
+
+.sidebar a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+
+  cursor: pointer;
+
+
+}
+
+.showNav {
+
+  display: none;
+}
+
+.openNav {
+  width: 450px;
+  margin-top: 80px;
+  transition: all 2s;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+
+}
+#main-content {
+  text-align: right;  
+}
+#main-content h1{
+  font-size: 43px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#main-content p{
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.blur{
+  filter: blur(8px);
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+.accordion {
+  width: 100%;
+  max-width: 1080px;
+  height: 350px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 30.666%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: all 500ms ease;
+}
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.accordion ul li div a {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.accordion ul li div a h2 {
+  font-family: Montserrat,sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+.accordion ul li div a p {
+  top: 160px;
+  font-size: 13.5px;
+}
+.accordion ul li:nth-child(1) {
+  background-image: url("../images/baram-ar.jpg");
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("../images/1461067344.jpg");
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("../images/טייבה\ 3.2012.jpg");
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("../images/file.jpg");
+}
+.accordion ul li:nth-child(5) {
+  background-image: url("../images/original.jpg");
+}
+.accordion ul li:nth-child(6) {
+  background-image: url("../images/ebea9100bd761115b3030de3ad8c5294.jpg");
+}
+.accordion ul:hover li, .accordion ul:focus-within li {
+  width: 8%;
+}
+.accordion ul li:focus {
+  outline: none;
+}
+.accordion ul:hover li:hover,
+.accordion ul li:focus, .accordion ul:focus-within li:focus {
+  width: 60%;
+}
+.accordion ul:hover li:hover a,
+.accordion ul li:focus a, .accordion ul:focus-within li:focus a {
+  background: rgba(0, 0, 0, 0.4);
+}
+.accordion ul:hover li:hover a *,
+.accordion ul li:focus a *, .accordion ul:focus-within li:focus a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.accordion ul:hover li {
+  width: 8% !important;
+}
+.accordion ul:hover li a * {
+  opacity: 0 !important;
+}
+.accordion ul:hover li:hover {
+  width: 60% !important;
+}
+.accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+.accordion ul:hover li:hover a * {
+  opacity: 1 !important;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  .accordion {
+    height: auto;
+  }
+  .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.about {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+.about a {
+  color: blue;
+  text-decoration: none;
+}
+.about a:hover {
+  text-decoration: underline;
+}

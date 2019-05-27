@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   }
+
+   body {
+    width: 100%;
+
+    
+   }
+
+   #header {
+ 
+  
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(../images/maxresdefault.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    
+   }
+
+#start-logo {
+  
+  height: 300px;
+  position: absolute;
+  left: 50px;
+  top: -20px;
+  animation: logoanimate 2.5s; }
+
+#actionbutton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 50px;
+  margin-bottom: 20px; }
+
+@keyframes logoanimate {
+  0% {
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 700px; } 
+  }
