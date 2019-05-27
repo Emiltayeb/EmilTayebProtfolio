@@ -6,6 +6,9 @@ https://emiltayeb.github.io/WebDevelopmentCourse/Emiltayeb%20Protfoilio/index.ht
 
 https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
 
+# hit Landing page Assigment 
+https://emiltayeb.github.io/WebDevelopmentCourse/lading%20page%20assigment/index.html
+
 
 # Beyond The lends
 
