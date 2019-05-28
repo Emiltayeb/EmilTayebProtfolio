@@ -2,7 +2,7 @@
 
 https://emiltayeb.github.io/WebDevelopmentCourse/Emiltayeb%20Protfoilio/index.html
 
-# Musume Of Candy Project
+# Musume Of Candy Project (html css bootstrap 4)
 
 https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
 
@@ -14,7 +14,7 @@ https://emiltayeb.github.io/WebDevelopmentCourse/lading%20page%20assigment/index
 
 https://emiltayeb.github.io/WebDevelopmentCourse/BeyondTheLands/home.html
 
-# Color Game Prject
+# Color Game Prject (java script)
 
 https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGame.html
 
