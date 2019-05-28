@@ -12,7 +12,7 @@ https://emiltayeb.github.io/WebDevelopmentCourse/lading%20page%20assigment/index
 
 # Beyond The lends
 
-https://emiltayeb.github.io/WebDevelopmentCourse/BeyondTheLands/about.html
+https://emiltayeb.github.io/WebDevelopmentCourse/BeyondTheLands/home.html
 
 # Color Game Prject
 
