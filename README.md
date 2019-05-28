@@ -23,6 +23,3 @@ https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGa
 https://emiltayeb.github.io/WebDevelopmentCourse/Todo%20list%20project/index.html
 
 
-# Hit lading page
-
-https://emiltayeb.github.io/WebDevelopmentCourse/Task5_emiltayeb/index.html
