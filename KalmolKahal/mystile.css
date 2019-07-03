@@ -1,0 +1,459 @@
+/* הנחיות כלליות לאתר */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  /* הנחיות לגוף פונט + כיוון */
+  body{
+  direction: rtl;
+  font-family: 'Assistant', sans-serif;
+  }
+  #container{
+  margin: 0 auto;
+  width: 1366px;
+  }
+  #skip{
+  margin: 0;
+  list-style: none;
+  }
+  /* גלדים כללים לכותרות */
+  h2 {
+  font-size: 24pt
+  }
+  /* תמונת הלוגו */
+
+  #home_page_logo img {
+  height:55px;
+  margin-right: 10%;
+  }
+  
+  #main_navigation h1{
+    line-height: 0;
+  }
+
+
+  ul {
+  vertical-align: bottom;
+  }
+  /* #logo {
+  margin-right: 10%;
+  } */
+  .navbar-light .navbar-nav .nav-link{
+  color: black;
+  }
+  /* הזזת התפריט שיהיה מיושר עם הטקסט לצד הסרטון */
+  .navbar-nav  {
+  margin-left:4px;
+  }
+  /* עיצוב התפריט */
+  /* לדאוג שיהיה מרווחים בין הלינקים */
+  .navbar-expand-md .navbar-nav .nav-link{
+  font-size: 16px;
+  padding: 0 18px;
+  }
+
+  ul .dropdown-menu{
+    margin-top: -1px;
+  }
+  .dropdown:hover>.dropdown-menu {
+  display: block;
+  }
+  /* נתית קלאס של אקטיב מבוסטראפ כך שהמשתמש יוכל לדעת תמיד איפה הוא נמצא */
+  .navbar-expand-md .navbar-nav .nav-link.active{
+  color: #12c3df;
+  text-decoration: underline;
+  }
+ 
+  .navbar-light .navbar-nav .nav-link:hover {
+    color:#12c3df;
+    text-decoration: underline;
+}
+  .dropdown-item{
+  font-size:14px;
+  }
+  .dropdown-item.active{
+  color: #12c3df;
+  text-decoration: underline;
+  background-color: #fff;
+  }
+  .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-item:hover > a{
+  background-color: #fff;
+  text-decoration: underline;
+  }
+  /* צבע בוהבר על הלינקים */
+  .dropdown-item:hover,.dropdown-item:focus{
+  color: #12c3df;
+  }
+  .dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+  }
+  .heading{
+  color: black;
+  background-color: black;
+  }
+  .heading section{
+  margin-top: 25px;
+  }
+  .heading h2{
+  font-weight: bold;
+  }
+  .heading p, .heading a{
+  font-size: 16pt;
+  color: black;
+  }
+  .carousel-control-next, .carousel-control-prev {
+  width:3%;
+ position: absolute;
+  top: 237px;
+  bottom: 2500px;
+  color: red;
+  opacity: 1;
+  background: none; 
+  border: none;
+  }
+  .carousel-control-prev a:focus,.carousel-control-next a:focus{
+   border: 3px solid yellow;
+  }
+  .fa-chevron-right ,.fa-chevron-left {
+  color: white;
+  background: black;
+  padding: 8px 4px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.8s;
+  }
+  .fa-chevron-right:hover ,.fa-chevron-left:hover{
+  transform: scale(2);
+
+  }
+
+  .to_full_page{
+    text-decoration: underline;
+   
+
+  }
+  .to_full_page:hover{
+color: #003D79;
+font-weight: bold;
+  }
+  /* עיצב הכותרת מעל האייקונים */
+  #icons_main_header {
+  font-size: 35px;
+  padding:30px 0 0px 0 ;
+  }
+  /* מקטע האייוקנים */
+  #human_icons{
+  width: 80%;
+  margin: 0 auto;
+  }
+  #human_icons>p{
+  font-size: 20px;
+  margin-bottom: 50px;
+  
+  }
+  #human_icons .box{
+  position: relative;
+  height: 200px;
+  width: 350px;
+  }
+  #human_icons a{
+  color: black ;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  }
+  #human_icons a span {
+  position: relative;
+  margin-right: 15px;
+  right:0;  
+  top: 25px;
+  font-size: 30px;
+  }
+  /* כל התמונות יקבלו את הסטייל הזה כך הם יצמדו למשאל כפי שרציני עם מיקום אבסולטי */
+  .human_icons{
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: bottom ;
+  width: 150px;
+  height: 200px;
+  }
+  /* חילוף התמונה באמצעות טכניקת הספרייט */
+  a:hover .human_icons{
+  background-position: top;
+  }
+  #voice_image{
+  background-image: url(images/שימוש\ בקול\ 4.png);
+  }
+  #body_image{
+  background-image: url(images/שפת\ גוף\ 4.png);
+  }
+  #impact_image{
+  background-image: url(images/אימפקט\ 4.png) 
+  }
+  #content_image{
+  background-image: url(images/תוכן\ מרוכב\ 4.png);
+  }
+  #eye_image{
+  background-image: url(images/קשר\ עין4.png);
+  }
+  #crowd-connection_image{
+  background-image: url(images/חיבור\ לקהל\ 4.png);
+  width: 210px;
+  }
+  /* צבעים לרקעים של הקופסא */
+ .eye , .Voice{
+  background-color: #B0F4E6;
+  }
+  .complicated, .Body{
+  background-color: #67EACA;
+  }
+.Audience, .impact{
+  background-color: #12D3CF;
+  }
+
+  /* עיצוב פירוררי לחם */
+  nav ol {
+    padding-bottom: 30px;
+  }
+    nav ol li
+    {
+    display:inline-block;
+  font-size: 30px;
+    }
+    nav ol li h1{
+      font-size: 30px;
+    }
+  
+    nav ol li:after
+  {
+  content: ">";
+  }
+  nav ol li:last-child:after
+  {
+  content:"" ;
+  }
+/* עיצוב הכותרת */
+  .techniqes_Header{
+  padding:30px 0;
+  }
+
+
+  .techniqes_Header p,.techniqes_Header a,.techniqes_Learned h2,.techniqes_Learned ul,.techniqes_Tips h2,.techniqes_Tips ul{
+  margin-right: 100px;
+  }
+  
+  .techniqes_Header a{
+  color: black;
+  text-decoration: underline
+  }
+    .techniqes_Header p{
+  font-size: 20px;
+  margin-top: -23px;
+  }
+  .techniqes_video{
+  margin: 70px auto;
+  width: 65%;
+  }
+  .techniqes_Learned{
+    padding: 20px 0;
+    margin-bottom: -20px;
+  }
+
+  .techniqes_Tips ul{
+  list-style: none;
+  }
+  .techniqes_Learned h2 ,.techniqes_Tips h2{
+    font-size: 25px;
+  }
+  .techniqes_Tips li i{
+  margin-left:8px;
+  }
+
+ 
+
+  
+  .techniqes_Tips{
+    padding: 0px 0;
+  }
+  .techniqes_Learned li,.techniqes_Tips li{
+  margin-top: 10px;
+  font-size: 20px;
+  }
+  .next_page {
+  font-size: 24px;
+  text-decoration: underline;
+  }
+  .next_page:hover {
+  transition:  all 0.5s;
+  transform: scale(1.4);
+  color: #12c3df;
+  }
+  /* פוטר */
+  footer{
+  margin-top: 100px;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+  }
+  footer ul {
+  list-style: none;
+  }
+  footer li {
+  display: inline-block;
+  margin-left: 40px;
+  }
+  footer a{
+  font-size: inherit;
+  text-decoration: none;
+  color: white;
+  }
+  footer a:hover{
+  color: #12c3df;
+  }
+  footer h2{
+  color: white
+  }
+  footer #tools_footer li{
+  margin-left: 40px;
+  }
+  footer #footer_logo{
+  height:80px;
+  }
+  footer p{
+  color: #969696;
+  }
+
+  /* עמודים שלא פיתחנו */
+  .notActive{
+  cursor: not-allowed;
+  color: grey;
+  }
+  /* קישורים בטור במפת אתר ואודות */
+  .link_in_column{
+  display: block;
+  color: #12c3df;
+  }
+  
+ #Logo_HIT{
+
+   background-size: cover;
+  width: 180px;
+  height: 120px;
+  display: block;
+  }
+  aside a{
+    color: #12D3CF;
+  }
+  /* תמונות אווירה במפת אתר, צור קשר ואודות */
+  #connection-Section{
+  position: relative;
+  }
+
+  #mail{
+  background-image: url(images/דואר.png);
+  width: 4.42in;
+  height: 4.25in;
+  }
+  .inner_pages_image{
+
+  position: absolute;
+  background-size: cover;
+  }
+  #map{
+    background-image: url(images/מפה.png);
+    width: 3.42in;
+    height: 4.25in;
+    }
+  /* עיצוב ותכונות לטופס יצירת קשר */
+  ::placeholder {
+  color: #0A716F;
+  font-family: 'Assistant', sans-serif;
+  }
+  label{
+  font-family: 'Assistant', sans-serif;
+  }
+  .button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: 20px;
+  cursor: pointer;
+  padding:  12px ;
+  border: 4px solid rgb(255,255,255);
+  font-family: 'Assistant', sans-serif;  
+  color: rgb(255, 255, 255);
+  border: solid 1px white;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background:  #12d3cf;
+  }
+  .button:hover {
+  color: #12d3cf;
+  background: #ffffff;
+  border: solid 1px #12D3CF;
+  }
+  input[type=text],input[type=email],input[type=submit] , textarea{
+  font-family: 'Assistant', sans-serif;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 0.3px solid black;
+  color:black;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  width: 300px;
+  }
+
+  .required{
+  color: red;
+  }
+  /* סטייל לבולטים בעמודים פנימיים */
+  .techniqes_Tips ul li {
+  list-style: none;
+  }
+  .techniqes_Learned ul li{
+  list-style: none;
+  }
+  /* .techniqes_Learned ul li:before{
+  content: '✓';
+  } */
+
+  .checked{
+   text-decoration: line-through;
+   color: grey;
+  }
+
+.feedback_text{
+  margin-right: 12px;
+  color: #003D79;
+  font-size: 120%;
+  font-weight: bold;
+ animation: fadein 1s ease-in-out;
+
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(50px)
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
