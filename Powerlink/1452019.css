@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#section-1{
+  height:1100px;
+  background:blue;
+}
+
+body{
+  font-family: 'Assistant', sans-serif;
+  background-color:#388EFB;
+  direction: rtl;
+}
+
+#main_Nav a {
+color: white;
+font-size: 1.5rem;
+font-weight: 100;
+display: inline-block;
+
+}
+
+#main_Nav .nav-link:hover{
+    color: red;
+
+}
+
+
+#header {
+
+  text-transform: uppercase;
+  font-weight: 100;
+}
+#header h1{
+  font-size: 4rem;
+}
+#header h2{
+  color: rgba(0, 0, 0, 0.753);
+}
+#header span{
+  color: red;
+}
+#header .btn{
+  transition: all 0.8s;
+}
+#header .btn:hover{
+ background-color: white;
+ color: red;
+ transform: scale(1.2)
+}
+
+
+#section1 h2 {
+  color: red;
+  font-size: 3.5rem;
+   font-weight: 100;
+}
+#section1 p{
+  line-height: 1.7;
+  color: black;
+}
+
+#section2 h2{
+
+  font-size: 3rem;
+  font-weight: 100;
+  
+}
+#section2 p{
+  line-height: 1.7;
+  color:  rgb(255, 255, 255);;
+}
+
+#section3 {
+  background-image: url(imgs/road.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1000px;
+ 
+  -webkit-box-shadow: -4px 6px 81px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 6px 81px 0px rgba(0,0,0,0.75);
+  box-shadow: -4px 6px 81px 0px rgba(0,0,0,0.75);
+}
+
+#section3 h3{
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-decoration: underline;
+}
+#section3 p{
+  margin: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 8px;
+  font-size: 1.5rem;
+  font-weight: 100;
+
+}
+.navbar.scrolled {
+  background: rgb(222,192,222);
+  transition: background 500ms;
+}
+/* form */
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+  
+#email {
+  width: 75%;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+  width: 25%;
+  height: 46px;
+  background:blue;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+    letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+
+#submit:hover {
+  background: white;
+  color: blue;
+}
+  
+
+input:focus {
+  outline: none;
+  
+
+}
+/* helper clases */
+.bg-white{
+  background-color: #fff;
+}
+
+.dark-gradient{
+background-color: rgb(97, 221, 205);
+
+}
+
+
+.margintop-80{
+  margin-top: 100px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+/* animation */
+.intro-animation{
+animation: introanimation 3s ease-in-out  ;
+transform: all 3s;
+}
+
+#crmImage{
+    transform: rotate(-60deg)
+}
+.loop{
+  animation: loop 3s ease-in-out ;
+   animation-iteration-count: infinite;
+   
+  
+}
+/* media queris */
+
+@media (max-width:1260px){
+  #header h1{
+    font-size: 3rem;
+  }
+}
+
+
+/* keyframe */
+
+@keyframes loop{
+
+
+
+  50%{
+    transform: rotate(60deg)
+    
+  }
+100%{
+  transform: rotate(-60deg)
+}
+ 
+}
+
+@keyframes introanimation {
+  0% {
+ opacity: 0;
+ transform: translateY(-100px)
+
+  }
+  100% {
+   opacity: 1;
+   transform: translateY()
+  }
+}
