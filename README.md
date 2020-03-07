@@ -6,6 +6,10 @@ https://emiltayeb.github.io/WebDevelopmentCourse/Emiltayeb%20Protfoilio/index.ht
 
 https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
 
+*Edge Ledger Website
+
+https://emiltayeb.github.io/WebDevelopmentCourse/EdgeLedger%20Website/index.html
+
 # Hope - animation i made
 
 https://emiltayeb.github.io/HopeEmiltayeb/Hope_Animation.html
