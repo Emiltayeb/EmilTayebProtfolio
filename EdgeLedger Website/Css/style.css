@@ -1,0 +1,304 @@
+/* font imprt */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+/* basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utilty classes */
+
+:root {
+  --navbar-background-color: #85DCFF;
+  --primary-color: #023146;
+  --light-color: #fff;
+  --primary-color-darken: #021620;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.l-heading {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #B37127;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: white;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-darken);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.py-1 {
+  padding: 1.75rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.bg-light {
+  background: #fff;
+}
+
+.list {
+  margin: 1rem 0;
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
+/* standart */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #023146;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* navbar */
+
+#navbar {
+  background-color: var(--navbar-background-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #023146;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a {
+  padding: 0.725rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background-color: var(--light-color);
+  transition: all 1s ease-out;
+}
+
+#showcase {
+  background: url(https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80) center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.326);
+}
+
+#What .items {
+  display: flex;
+  padding: 1rem;
+  flex: 1;
+}
+
+#What .items .item {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+#What .items .item i {
+  align-self: center;
+  padding-bottom: 1rem;
+  color: var(--light-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+/* who */
+
+#who {
+  display: flex;
+}
+
+
+
+
+#who .who-img {
+  background: url("../img/people.jpg") center/cover;
+  width: 100%;
+  flex: 1;
+}
+
+#who .who-text {
+  padding: 1rem;
+  flex: 2;
+  background-color: #6BD5FF;
+  color: black;
+}
+
+#who ul {
+  list-style: none;
+}
+
+#who ul li {
+  padding: 1rem 0;
+  border-bottom: #444 dashed 1px;
+}
+
+/* cliens */
+
+#clients .items {
+  display: flex;
+  justify-content: center;
+
+}
+
+#clients .item img {
+  width: 60%;
+}
+
+
+/* contact form */
+
+#contact {
+  color: white;
+  display: flex;
+}
+
+
+#contact .contact-form {
+  background-color: var(--primary-color);
+  flex: 1;
+}
+
+#contact .form-group {
+  margin: 0.75rem;
+}
+
+
+#contact .form-group label {
+  display: block;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+#contact .map {
+  flex: 2;
+}
+
+
+
+
+/* #contact {
+  display: flex;
+  color: white;
+}
+
+
+#contact .contact-form {
+  flex: 2;
+}
+
+
+
+#contact .form-group {
+  margin: 0.75rem;
+}
+
+#contact .form-group label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#contact form .btn {
+  width: 100%;
+  margin-top: 1rem;
+} */

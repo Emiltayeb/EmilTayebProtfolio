@@ -1,0 +1,107 @@
+/* what icons */
+
+#What .items {
+  display: block;
+  padding: 1rem;
+}
+
+#What .items .item {
+  display: flex;
+  text-align: left;
+
+}
+
+/* postion icon */
+
+#What .items .item i {
+  margin-right: 0.75rem;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+#who {
+  text-align: center;
+}
+
+#who .who-img {
+  display: none;
+}
+
+@media (max-height: 568px) {
+  #showcase .showcase-content {
+    margin-top: -2rem;
+    top: 140px;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .l-heading {
+    font-size: 2rem;
+  }
+
+  #main-footer p {
+    font-size: 0.75rem;
+  }
+}
+
+/* smartphone */
+@media (max-width: 500px) {
+  #What .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #What .items .item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* navbar */
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #navbar ul li {
+    padding: 0.5rem 0;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  /* clients */
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child {
+    display: none;
+  }
+
+  /* who */
+
+  /* contact */
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    height: 300px;
+  }
+}

@@ -1,0 +1,23 @@
+/* align icon to left */
+
+/* what  */
+
+#What .items .item {
+  display: flex;
+  text-align: left;
+
+}
+
+/* postion icon */
+
+#What .items .item i {
+  margin-right: 0.75rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* map larger */
+
+#contact .map {
+  flex: 2;
+}
