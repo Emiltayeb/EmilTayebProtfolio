@@ -6,7 +6,7 @@ https://emiltayeb.github.io/WebDevelopmentCourse/Emiltayeb%20Protfoilio/index.ht
 
 https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
 
-*Edge Ledger Website
+#Edge Ledger Website
 
 https://emiltayeb.github.io/WebDevelopmentCourse/EdgeLedger%20Website/index.html
 
