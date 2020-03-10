@@ -93,7 +93,7 @@ span {
   text-align: center;
   color: white;
   transition:  all 0.5s;
- 
+     cursor: pointer;
   display: inline-block;
 }
 li:hover span {
