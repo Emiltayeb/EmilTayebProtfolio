@@ -7,6 +7,12 @@ https://happy-mayer-1f6544.netlify.com/index.html
 
 https://emiltayeb.github.io/conquer_the_islanda_Emiltayeb_Avitalmayyan/indextest.html
 
+
+# Todo List app 
+
+https://emiltayeb.github.io/WebDevelopmentCourse/Todo-list%20Project/index.html
+
+
 # telem-music 
 
 https://emiltayeb.github.io/Telem-music/
@@ -19,10 +25,6 @@ https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
 # Color Game Prject (java script)
 
 https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGame.html
-
-# Todo List app 
-
-https://emiltayeb.github.io/WebDevelopmentCourse/todolistprojectfinal/index.html
 
 
 # Edge Ledger Website
