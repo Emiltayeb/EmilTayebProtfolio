@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #e2c35d, #d88771);
+  color: white;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert > * {
+  padding: 0.4rem 3rem;
+}
+
+.success {
+  background-color: rgb(94, 221, 94);
+}
+.fail {
+  background-color: rgb(240, 68, 68);
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  border: none;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+form input {
+  padding: 0.7rem 5rem;
+}
+
+form button {
+  color: #ff6747;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+form button:hover {
+  background: #ff6747;
+  color: white;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  color: #d88771;
+  width: 10rem;
+  cursor: pointer;
+  padding: 0.55rem 0.75rem;
+}
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #ff6747;
+  top: 0;
+  right: 0;
+  padding: 0.55rem 0.75rem;
+  pointer-events: none;
+}
+/* todo style */
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  background-color: white;
+  color: black;
+  display: flex;
+  font-size: 1rem;
+  margin: 0.65rem 0;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.7s ease;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.completed-btn {
+  background-color: #ff6747;
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.completed-btn {
+  background-color: rgb(88, 231, 88);
+}
+
+.todo-item {
+  padding: 0 0.5rem;
+}
+
+/* trash and completed btn */
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+/* after clikcing and adding claslist of trash and completed */
+
+.Completed {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.fall {
+  transform: translateY(8rem) rotate(20deg);
+  opacity: 0;
+}
+
+@media screen and (max-width: 740px) {
+  form {
+    flex-direction: column;
+  }
+
+  form input {
+    padding: 0.7rem 3rem;
+  }
+}

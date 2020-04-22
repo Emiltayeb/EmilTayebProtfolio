@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cd555a857e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Emil || Todo-list</title>
+  </head>
+  <body>
+    <header>
+      <h1>Emil To-do List</h1>
+    </header>
+    <div class="alert"></div>
+    <form>
+      <div>
+        <input type="text" name="" id="" class="todo-text" />
+        <button class="todo-btn" type="submit">
+          <i class="fas fa-plus-square"></i>
+        </button>
+      </div>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="All">All</option>
+          <option value="Uncompleted">Uncompleted</option>
+          <option value="Completed">Completed</option>
+        </select>
+      </div>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+      <!-- sd  -->
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
