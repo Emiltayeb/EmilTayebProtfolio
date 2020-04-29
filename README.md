@@ -14,8 +14,7 @@ https://emiltayeb.github.io/drumBeatMaker/index.html
 
 # Todo List app 
 
-https://emiltayeb.github.io/WebDevelopmentCourse/Todo-list%20Project/index.html
-
+https://emiltayeb.github.io/To-Do-List/index.html
 
 # telem-music 
 
