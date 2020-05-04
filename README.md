@@ -1,5 +1,5 @@
 
-# My protfolio site 
+# My protfolio site  (html css sass )
 
 https://happy-mayer-1f6544.netlify.com/index.html
 
@@ -8,9 +8,9 @@ https://happy-mayer-1f6544.netlify.com/index.html
 https://emiltayeb.github.io/conquer_the_islanda_Emiltayeb_Avitalmayyan/indextest.html
 
 
-# beat Maker 
+# beat Maker  (Javasciprt)
 
-https://emiltayeb.github.io/drumBeatMaker/index.html
+https://emiltayeb.github.io/beat_maker_912/
 
 # Todo List app 
 
