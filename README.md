@@ -3,7 +3,7 @@
 
 https://happy-mayer-1f6544.netlify.com/index.html
 
-# conqaure the island - actionscript , adobe animate
+# Education game :conqaure the island ( actionscript , adobe animate)
 
 https://emiltayeb.github.io/conquer_the_islanda_Emiltayeb_Avitalmayyan/indextest.html
 
