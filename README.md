@@ -2,7 +2,7 @@
 
 # insturcional Designing
 
-Educational software about Office Ergonomics/
+Educational software about Office Ergonomics
 
 https://emiltayeb.github.io/Office_Ergonomic/Office_ergonomics%20-%20Storyline%20output/story.html
 
