@@ -14,7 +14,7 @@ https://emiltayeb.github.io/conquer_the_islanda_Emiltayeb_Avitalmayyan/indextest
 
  The Bus Driver (drinking Game) : Pure Vanilla Js
  
- https://emiltayeb.github.io/theBusDriver/index.html
+https://emiltayeb.github.io/theBusDriver/
 
  beat Maker  - Vanila js
 
