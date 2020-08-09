@@ -36,7 +36,7 @@ https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGa
 # Websites Projects:
  My protfolio site  (html css sass )
 
-https://happy-mayer-1f6544.netlify.com/index.html
+https://emiltayebprotfolio.netlify.app/
 
 Musume Of Candy Project (html css bootstrap 4)
 
