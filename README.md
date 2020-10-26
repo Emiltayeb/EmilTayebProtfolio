@@ -12,6 +12,10 @@ https://emiltayeb.github.io/conquer_the_islanda_Emiltayeb_Avitalmayyan/indextest
 
 # Apss :
 
+# flashcard App
+
+https://brainflashcards.herokuapp.com/
+
  The Bus Driver (drinking Game) : Pure Vanilla Js
  
 https://emiltayeb.github.io/theBusDriver/
@@ -38,15 +42,17 @@ https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGa
 
 https://emiltayebprotfolio.netlify.app/
 
+# Elana joy
+
+https://emiltayeb.github.io/elena-joy/
+
 Musume Of Candy Project (html css bootstrap 4)
 
 https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
 
-
  Naotour Ladning Page (SCSS/SASS) update.
 
 https://emiltayeb.github.io/WebDevelopmentCourse/Natour_ladning_page/index.html
-
 
 #Edge Ledger Website
 
