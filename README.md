@@ -42,21 +42,23 @@ https://emiltayeb.github.io/WebDevelopmentCourse/EmilColor%20Game(final)/colorGa
 
 https://emiltayebprotfolio.netlify.app/
 
+
+
  Elana joy
 
 https://emiltayeb.github.io/elena-joy/
 
 Musume Of Candy Project (html css bootstrap 4)
 
-https://emiltayeb.github.io/WebDevelopmentCourse/MusumeofCandy/1452019.html
+https://emiltayeb.github.io/EmilTayebProtfolio/MusumeofCandy/1452019.html
 
  Naotour Ladning Page (SCSS/SASS) update.
 
-https://emiltayeb.github.io/WebDevelopmentCourse/Natour_ladning_page/index.html
+https://emiltayeb.github.io/ladningNatourPage/
 
 #Edge Ledger Website
 
-https://emiltayeb.github.io/WebDevelopmentCourse/EdgeLedger%20Website/index.html
+https://emiltayeb.github.io/EmilTayebProtfolio/EdgeLedger%20Website/index.html
 
 Sass navbar test
 
