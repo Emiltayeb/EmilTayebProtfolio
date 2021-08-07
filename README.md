@@ -12,9 +12,7 @@ https://emiltayeb.github.io/conquer_the_islanda_Emiltayeb_Avitalmayyan/indextest
 
 # Apss :
 
- flashcard App
 
-https://brainflashcards.herokuapp.com/
 
  The Bus Driver (drinking Game) : Pure Vanilla Js
  
